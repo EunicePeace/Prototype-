@@ -3,7 +3,7 @@ import Input from '../UI/Input';
 import Select from '../UI/Select';
 import Button from '../UI/Button';
 import './Auth.css';
-import { saveToLocalStorage } from '../../Utils/authUtils';
+import { saveToLocalStorage } from '../../util/authUtils';
 
 const Signup = () => {
     const [formData, setFormData] = useState({
