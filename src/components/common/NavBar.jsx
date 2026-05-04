@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './NavBar.css';
-import { getFromLocalStorage, removeFromLocalStorage } from '../../utils/authUtils';
+import { getFromLocalStorage, removeFromLocalStorage } from '../../Utils/authUtils';
 
 const Navbar = () => {
   const [currentUser, setCurrentUser] = useState(null);

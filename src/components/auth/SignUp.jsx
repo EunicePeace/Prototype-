@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Input from '../UI/Input';
 import Select from '../UI/Select';
 import Button from '../UI/Button';
-import { saveToLocalStorage } from '../../utils/authUtils';
+import { saveToLocalStorage } from '../../Utils/authUtils';
 import './Auth.css';
 
 const Signup = () => {
